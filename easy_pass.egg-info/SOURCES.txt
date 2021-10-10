@@ -1,8 +1,0 @@
-README.md
-setup.py
-easy_pass/__init__.py
-easy_pass/easy_pass.py
-easy_pass.egg-info/PKG-INFO
-easy_pass.egg-info/SOURCES.txt
-easy_pass.egg-info/dependency_links.txt
-easy_pass.egg-info/top_level.txt
