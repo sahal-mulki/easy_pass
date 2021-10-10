@@ -5,10 +5,10 @@ I also made a blog post about this : https://sahalcode.wordpress.com/2021/02/01/
 
 # Usage
 ```
-passobject = easy_pass.Password(password="password",
+passobject = password_lib.Password(password="password",
                                        iters=500000)
 
-validation = easy_pass.validate(hash1 = contents2,
+validation = password_lib.validate(hash1 = contents2,
                                    password = input1,
                                    iters2 = 500000)
 ```                                                                 
