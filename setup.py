@@ -1,5 +1,8 @@
 from setuptools import find_packages, setup
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
   name = 'easy_pass',         # How you named your package folder (MyLib)
   packages = ['easy_pass'],   # Chose the same as "name"
@@ -7,6 +10,8 @@ setup(
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A library to hash passwords and manage them.',   # Give a short description about your library
   author = 'Muhammad Sahal Mulki',                   # Type in your name
+  long_description=long_description,
+  long_description_content_type="text/markdown",
   author_email = 'm.sahalmulki@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/sahal-mulki',   # Provide either the link to your github or to your website
   keywords = ['sha-256' 'hash', 'password'],   # Keywords that define your package best
