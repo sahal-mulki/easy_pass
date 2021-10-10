@@ -1,4 +1,5 @@
-from distutils.core import setup
+from setuptools import find_packages, setup
+
 setup(
   name = 'easy_pass',         # How you named your package folder (MyLib)
   packages = ['easy_pass'],   # Chose the same as "name"
@@ -9,7 +10,6 @@ setup(
   author_email = 'm.sahalmulki@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/sahal-mulki',   # Provide either the link to your github or to your website
   keywords = ['sha-256' 'hash', 'password'],   # Keywords that define your package best
-  install_requires=[],
   classifiers=[
     'Development Status :: 4 - Beta',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
